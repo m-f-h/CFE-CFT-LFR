@@ -11,14 +11,15 @@ Organisation:
 
 import streamlit as st
 
-print("Hello folks!")
-st.write("Let's do this...")
+#print("Hello folks!") # does not appear !
+st.write("Powering up...")
 st.title("Bienvenue dans le script d'aide à la gestion LFR/CFE/CFT!")
 st.markdown("<center>(c) oct.2025 by MFH</center>", unsafe_allow_html=True)
 
+st.write("Importing CFE_CFT_LFR.py ...")
 from CFE_CFT_LFR import * # import all functions from CFE_CFT_LFR.py
 
-print("Now the main menu...")
+st.write("Debugging...: Now the main menu!")
 
 Menu(greeting = """<h1>Bienvenue dans le script d'aide à la gestion LFR/CFE/CFT!</h1>
 <center>(c) oct.2025 by MFH</center>

@@ -8,6 +8,7 @@ Module with functions to manage LFR/CFE/CFT chess competitions.
 ##### PART I : imports and global variable initialisations #####
 
 import __main__
+__main__.st.write("Debugging...: Now importing CFE_CFT_LFR.py")
 
 from streamlit import write, markdown, text_input as input
 
